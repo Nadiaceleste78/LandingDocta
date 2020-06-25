@@ -97,55 +97,81 @@ body{
     margin: 0 auto;
 }
 
+.introduccion2 .propuesta .titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
 .numeros{
     display: flex;
     text-align: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     font-family: 'Montserrat', sans-serif;
-    font-size:2.5em;
     letter-spacing: 10px;
     text-align: center;
-    font-weight: 200;
     text-transform: uppercase;
 }
-
-.numeros .cursadas {
-    font-size:1;
-}
-.introduccion2 h2 span{
-    font-weight: 700;
+.numeros .cursadas p{
+    font-size: 1.5rem;
 }
 
-.introduccion2 .propuesta .titulo{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
-    text-align: center;
+.numeros p {
+    font-size: 1rem;
+    font-weight: 200;
+    margin-top: auto;
+    letter-spacing: 5px;
 }
 
-.introduccion2 h3 {
+.numeros span{
+    font-size:4rem ;
+    font-weight: 300;
+}
+
+.introduccion2 .info h3{
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     text-align: center;
 }
 
-.introduccion2 p{
+.introduccion2 .info p{
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     text-align: center;
+}
+
+.introduccion2 h2 span{
+    font-weight:700;
 }
 
 .introduccion2 .separador2{
     background-color: #EED870;
     border: 1px solid #EED870;
     width: 15px;
-    margin: 0 160px;
-}
+    margin: 0 150PX;}
 
 .info {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     max-width:1140px;
-    margin: 0 auto;
+    margin: 0 160PX;
 }
 /*--------------------------------*/
+
+.final{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.final h2{
+    display: flex;
+    flex-direction: wrap;
+    font-family: 'Montserrat', sans-serif;
+    color: #EED870;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 200;
+    letter-spacing: 10px;
+
+}
